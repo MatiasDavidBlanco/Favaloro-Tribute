@@ -28,9 +28,7 @@ body{
     padding: 20px;
     margin-bottom: 25px;
     height: 100px;
-    
 }
-
 #title{
     width:100%;
     font-size:3.0em;
@@ -41,7 +39,7 @@ body{
     font-size: 1.1em;
     font-style: italic;
     font-family: 'Nunito', sans-serif;
-  
+    margin-top: -15px;
 }
 
 #img-div{
@@ -66,16 +64,12 @@ body{
 
 }
 
-
 #image {
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
-    
 }
-
-
 
 #frases {
     font-family: 'Nunito', sans-serif;
@@ -125,7 +119,9 @@ p{
     background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     font-family: 'Nunito', sans-serif;
-    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
     padding: 30px;
     box-shadow: 11px 2px 8px -2px rgba(0,0,0,0.52);
     -webkit-box-shadow: 11px 2px 8px -2px rgba(0,0,0,0.52);
@@ -142,7 +138,6 @@ p{
     text-decoration: underline;
     color: white;
 }
-
 
 .demo a {
     position: absolute;
@@ -244,7 +239,6 @@ p{
 }
 
 
-
 @media screen and (max-width: 600px){
 
     #caja{
@@ -257,7 +251,7 @@ p{
     }
 
     #tribute-info{
-        font-size: 1.1em;
+        font-size: 0.9em;
 
     }
 
@@ -269,7 +263,7 @@ p{
     #frases{
 
         font-size: 15px;
-        width:80vw;
+        
     }
 
     .more-info{
